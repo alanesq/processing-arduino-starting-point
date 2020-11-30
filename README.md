@@ -21,3 +21,8 @@ example Arduino sketch to send some data:
                                   
 For lots of examples on what can be done in Processing see:    https://thecodingtrain.com/
 
+Notes:
+In the MISC folder there is a simple Processing sketch (web_server.pde) which acts as a web server which can be useful for 
+triggering events on a PC from a ESP modules simply by requesting a web page.   
+
+                                                                           https://github.com/alanesq/processing-arduino-starting-point
