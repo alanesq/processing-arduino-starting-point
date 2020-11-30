@@ -21,8 +21,8 @@ void setup()
     background(0);                   // black background
     textSize(14);
     text("WEB SERVER DEMO", 60, 25);
-    text("trigger with: http://localhost/trigger1", 10, 70);
-    text("or: http://localhost/trigger2", 75, 90);
+    text("trigger with: http://localhost?trigger1", 10, 70);
+    text("or: http://localhost?trigger2", 75, 90);
     
   s = new Server(this, 8080);        // start server on http-alt
 }
